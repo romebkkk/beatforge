@@ -1,0 +1,7 @@
+# Configuración de ejemplo para BeatForge (opcional)
+prompt: "dark trap beat, heavy 808, aggressive brass, cinematic"
+duration: 20
+melody_guidance: false   # true = usar el croma de la referencia como guía
+separate_stems: false
+model: "facebook/musicgen-melody"
+out_base: "output/beat"

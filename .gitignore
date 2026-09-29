@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Model caches / weights (huge)
+*.pt
+*.pth
+*.ckpt
+.cache/
+models/
+
+# Working audio & outputs (don't commit copyrighted references or generated audio)
+output/
+stems/
+midi/
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.mp4
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

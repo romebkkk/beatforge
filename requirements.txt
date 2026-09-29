@@ -1,0 +1,18 @@
+# Análisis
+librosa>=0.10
+numpy>=1.24
+soundfile>=0.12
+
+# Separación de stems (opcional)
+demucs>=4.0
+
+# Generación (MusicGen). Requiere PyTorch con CUDA para ir rápido.
+audiocraft>=1.3
+torch>=2.1
+torchaudio>=2.1
+
+# Audio -> MIDI (opcional, guía)
+basic-pitch>=0.3
+
+# Ensamblado / export (requiere ffmpeg instalado en el sistema)
+pydub>=0.25
